@@ -8,7 +8,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=iamdatagabs&color=blue)
 ![GitHub followers](https://img.shields.io/github/followers/iamdatagabs?style=social)
-![Status](https://img.shields.io/badge/status-curious%20about%20everything-brightgreen)
+![Status](https://img.shields.io/badge/status-building%20real%20impact-brightgreen)
 
 </div>
 
@@ -16,38 +16,40 @@
 
 ## 🧠 Quem sou eu?
 
-Sou brasileiro (nascido em Sorocaba - SP), pesquisador em IA e alguém tentando fazer modelos saírem do conforto do notebook e encararem o mundo real.
+Sou brasileiro (Sorocaba - SP), pesquisador em IA focado em tirar modelos do notebook e levar para o mundo real.
 
 Tenho:
-- 26 anos (sim, nasci em 2000)
-- Dedos levemente “criativos” 🫠 
-- Um sistema movido a suco de maçã 🍎 (não é metáfora)
+- 26 anos  
+- Background interdisciplinar  
+- Interesse em problemas reais (não só benchmarks)  
+- Um sistema movido a suco de maçã 🍎  
 
-Meu foco não é só treinar modelos — é fazer eles funcionarem onde importa: **hospital, clínica e decisões reais de saúde**.
+Meu foco: **IA aplicada à saúde com impacto clínico real**.
 
 ---
 
 ## 🎓 Formação acadêmica
 
-- 🎓 Doutorado em Ciência da Computação — PUCPR  
+- 🎓 Doutorando em Ciência da Computação — PUCPR  
 - 🎓 Mestrado em Computação Aplicada — UEPG  
 - 🎓 Bacharelado em Geografia — UFV  
 
-> Sim, parece uma branch divergente da realidade. Mas faz sentido na timeline.
+> Caminho não-linear, mas totalmente intencional.
 
 ---
 
 ## 🧰 Tech Stack
 
-### 💻 Principal
+### 💻 Linguagens & Ferramentas
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)
 
-### 🧠 Data & ML
+### 🧠 Data & Machine Learning
 - Machine Learning aplicado à saúde  
+- Análise estatística avançada (R)  
 - Pipelines reprodutíveis  
-- Modelos voltados para ambiente clínico real  
+- Modelos voltados para ambiente clínico  
 
 ---
 
@@ -57,13 +59,7 @@ Meu foco não é só treinar modelos — é fazer eles funcionarem onde importa:
 - Bioinformática  
 - Inteligência Artificial aplicada à saúde  
 
-🎯 **Objetivo:** transformar pesquisa em impacto clínico real — não só gráfico bonito em artigo.
-
----
-
-## 🗄️ Certificações & Skills
-
-![MongoDB Skill Badge](https://img.shields.io/badge/MongoDB-Skill%20Badge-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+🎯 **Objetivo:** transformar pesquisa em decisão clínica real.
 
 ---
 
@@ -71,11 +67,19 @@ Meu foco não é só treinar modelos — é fazer eles funcionarem onde importa:
 
 <div align="center">
 
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=iamdatagabs&show_icons=true&cache_seconds=1800" alt="GitHub Stats"/>
+<!-- Versão mais estável (sem cache agressivo) -->
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=iamdatagabs&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
 
 <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamdatagabs&layout=compact&theme=tokyonight" alt="Top Languages"/>
 
 </div>
+
+---
+
+## 🧪 Projetos em foco
+
+- 🧠 Modelos para análise de imagens médicas (MRI, visão computacional)  
+- ⚙️ Integração entre pesquisa e aplicação clínica  
 
 ---
 
@@ -87,10 +91,16 @@ Meu foco não é só treinar modelos — é fazer eles funcionarem onde importa:
 
 ---
 
+## 🗄️ Certificações & Skills
+
+![MongoDB](https://img.shields.io/badge/MongoDB-Skill%20Badge-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+---
+
 ## 🚀 Final
 
-Se você chegou até aqui, provavelmente:
-- caiu aqui por curiosidade  
-- ou também acredita que IA deveria sair do laboratório  
+Se você chegou até aqui:
+- ou você curte tecnologia  
+- ou você acredita em impacto real com IA  
 
 Nos dois casos: **bem-vindo.**
