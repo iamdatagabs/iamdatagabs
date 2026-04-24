@@ -2,7 +2,7 @@
 
 # 👋 Olá, eu sou Gabriel Passos  
 
-<img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3500&color=E10600&center=true&vCenter=true&width=600&lines=AI+for+Healthcare+Researcher;Data+Science+%7C+Bioinformatics+%7C+Medical+AI;Bridging+research+and+real+world+impact" />
+<img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3500&color=E10600&center=true&vCenter=true&width=600&lines=AI+for+Healthcare+Researcher;Data+Science+%7C+Bioinformatics+%7C+Medical+AI;Bridging+research+and+real+world+impact" alt="Typing SVG" />
 
 ---
 
@@ -16,13 +16,12 @@
 
 ## 🧠 Quem sou eu?
 
-Sou brasileiro (nascido em Sorocaba-SP, mais especificamente), pesquisador em IA e alguém tentando fazer modelos saírem do conforto do notebook e irem encarar o mundo real.
+Sou brasileiro (nascido em Sorocaba - SP), pesquisador em IA e alguém tentando fazer modelos saírem do conforto do notebook e encararem o mundo real.
 
 Tenho:
 - 26 anos (sim, nasci em 2000)
-- Dedos levemente “criativos” 🫠
-- Flamengo no coração 🟥⬛ (graças a uma certa pessoa e coincidências da vida)
-- E um sistema movido a suco de maçã 🍎 (não é metáfora)
+- Dedos levemente “criativos” 🫠 
+- Um sistema movido a suco de maçã 🍎 (não é metáfora)
 
 Meu foco não é só treinar modelos — é fazer eles funcionarem onde importa: **hospital, clínica e decisões reais de saúde**.
 
@@ -34,7 +33,7 @@ Meu foco não é só treinar modelos — é fazer eles funcionarem onde importa:
 - 🎓 Mestrado em Computação Aplicada — UEPG  
 - 🎓 Bacharelado em Geografia — UFV  
 
-> Sim, isso parece uma branch divergente da realidade. Mas faz sentido na minha timeline.
+> Sim, parece uma branch divergente da realidade. Mas faz sentido na timeline.
 
 ---
 
@@ -46,9 +45,9 @@ Meu foco não é só treinar modelos — é fazer eles funcionarem onde importa:
 ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)
 
 ### 🧠 Data & ML
-- Machine Learning aplicado à saúde
-- Pipelines reprodutíveis
-- Modelos para ambiente clínico real
+- Machine Learning aplicado à saúde  
+- Pipelines reprodutíveis  
+- Modelos voltados para ambiente clínico real  
 
 ---
 
@@ -58,7 +57,7 @@ Meu foco não é só treinar modelos — é fazer eles funcionarem onde importa:
 - Bioinformática  
 - Inteligência Artificial aplicada à saúde  
 
-🎯 Objetivo: transformar pesquisa em impacto clínico real — não só gráfico bonito em artigo.
+🎯 **Objetivo:** transformar pesquisa em impacto clínico real — não só gráfico bonito em artigo.
 
 ---
 
@@ -72,9 +71,9 @@ Meu foco não é só treinar modelos — é fazer eles funcionarem onde importa:
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=iamdatagabs&show_icons=true&cache_seconds=1800)
+<img height="160em" src="https://github-readme-stats.vercel.app/api?username=iamdatagabs&show_icons=true&cache_seconds=1800" alt="GitHub Stats"/>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=iamdatagabs&layout=compact&theme=tokyonight)
+<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamdatagabs&layout=compact&theme=tokyonight" alt="Top Languages"/>
 
 </div>
 
@@ -82,29 +81,16 @@ Meu foco não é só treinar modelos — é fazer eles funcionarem onde importa:
 
 ## 💬 Filosofia de trabalho
 
-> “Se não funciona no hospital, ainda não está pronto.”
-
-> “Benchmark não salva paciente.”
-
-> "Medicina é a ciência da incerteza e a arte da probabilidade" (@emergencinsta)
-
----
-
-## 💌 Nota pessoal (importante mesmo)
-
-Ju Miranda,
-
-Se isso aqui fosse um sistema distribuído, você seria o serviço mais estável, mais bonito e com menor latência.
-
-E honestamente?  
-Eu nunca quis fazer rollback disso. ❤️
+> “Se não funciona no hospital, ainda não está pronto.”  
+> “Benchmark não salva paciente.”  
+> “Medicina é a ciência da incerteza e a arte da probabilidade.”
 
 ---
 
 ## 🚀 Final
 
 Se você chegou até aqui, provavelmente:
-- caiu aqui por curiosidade
-- ou também acredita que IA deveria sair do laboratório
+- caiu aqui por curiosidade  
+- ou também acredita que IA deveria sair do laboratório  
 
-Nos dois casos: bem-vindo.
+Nos dois casos: **bem-vindo.**
