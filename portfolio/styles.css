@@ -114,3 +114,7 @@ body{background:var(--bg);color:var(--text)}
 @media(max-width:620px){.topbar nav{color:#69584d}.expertise-item{border-bottom-color:rgba(243,238,229,.2)}.principle-quote{font-size:34px}}
 
 /* Build trigger: keep the visual portfolio as the Pages entry experience. */
+
+
+/* Separate live products from source repositories. */
+.work-subsection{margin-top:58px}.work-subheading{display:flex;align-items:end;justify-content:space-between;gap:32px;margin-bottom:22px;padding-bottom:18px;border-bottom:1px solid var(--line)}.work-subheading h3{font-family:var(--font-display,Manrope),sans-serif;font-size:clamp(27px,3vw,38px);font-weight:600;letter-spacing:-.04em;color:#30231f;margin:9px 0 0}.work-subheading>p{max-width:360px;color:#69584d;font-size:14px;line-height:1.7;margin:0}.repositories-subsection{margin-top:76px;padding-top:48px;border-top:1px solid var(--line)}.repositories-subsection .project-grid{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:900px){.repositories-subsection .project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.work-subheading{display:block}.work-subheading>p{margin-top:12px}.repositories-subsection .project-grid{grid-template-columns:1fr}.work-subsection{margin-top:42px}.repositories-subsection{margin-top:54px;padding-top:34px}}
