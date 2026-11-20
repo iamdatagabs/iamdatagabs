@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1220">
+  <meta name="description" content="Portfólio de Gabriel Passos — engenharia de dados, engenharia de software, ciência de dados e saúde digital.">
+  <meta property="og:title" content="Gabriel Passos — Data, Software & Digital Health">
+  <meta property="og:description" content="Construindo sistemas orientados a dados e aplicações inteligentes em saúde.">
+  <meta property="og:type" content="website">
+  <title>Gabriel Passos — Data · Software · Health</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="wordmark" href="#home" aria-label="Gabriel Passos, início"><span class="mark">GP</span><span>GABRIEL PASSOS<span class="wordmark-sub">ENGINEERING PORTFOLIO</span></span></a>
+    <nav aria-label="Navegação principal">
+      <a href="#work">Projetos</a><a href="#expertise">Expertise</a><a href="#trajectory">Trajetória</a><a href="#contact" class="nav-cta">Contato ↗</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> DATA ENGINEERING / SOFTWARE / DIGITAL HEALTH</div>
+        <h1>Engenharia para<br>transformar <span class="gradient-text">dados em<br>decisões.</span></h1>
+        <p class="hero-lead">Sou Gabriel Passos. Conecto engenharia de dados, desenvolvimento de software e inteligência aplicada à saúde para construir soluções úteis, rastreáveis e orientadas a problemas reais.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explorar projetos <span>↘</span></a>
+          <a class="button button-ghost" href="https://github.com/iamdatagabs" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span>BRASIL · MARINGÁ, PR</span><span>TECNOLOGIA + PESQUISA + ENSINO</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Diagrama conceitual de fluxo de dados">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="visual-label">SYSTEMS THINKING <span>01 / 04</span></div>
+        <div class="flow-card flow-source"><span class="flow-icon">⌘</span><div><b>DATA INPUT</b><small>Dados heterogêneos</small></div><i>01</i></div>
+        <div class="flow-line line-a"></div>
+        <div class="flow-card flow-engine"><span class="flow-icon">◈</span><div><b>ENGINEERING</b><small>Modelagem · pipelines · APIs</small></div><i>02</i></div>
+        <div class="flow-line line-b"></div>
+        <div class="flow-card flow-output"><span class="flow-icon">✳</span><div><b>INTELLIGENCE</b><small>Analytics · AI · health</small></div><i>03</i></div>
+        <div class="visual-foot"><span class="tiny-dot"></span> FROM RAW DATA TO REAL-WORLD IMPACT</div>
+      </div>
+      <div class="scroll-cue">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="metrics section-wrap" aria-label="Indicadores públicos do GitHub">
+      <div class="metric-intro"><span class="eyebrow">OPEN SOURCE FOOTPRINT</span><p>Atividade pública<br>no GitHub <span class="live-dot"></span></p></div>
+      <div class="metric"><strong id="repo-count">—</strong><span>REPOSITÓRIOS PÚBLICOS</span></div>
+      <div class="metric"><strong id="star-count">—</strong><span>STARS RECEBIDAS</span></div>
+      <div class="metric"><strong id="follower-count">—</strong><span>SEGUIDORES</span></div>
+      <div class="metric metric-note"><span id="api-status">Consultando GitHub API…</span><small>Dados atualizados ao abrir a página.</small></div>
+    </section>
+
+    <section id="work" class="section-wrap section-block">
+      <div class="section-heading"><div><span class="eyebrow">SELECTED WORK / 2024—2026</span><h2>Projetos que mostram<br><span class="muted">como eu construo.</span></h2></div><p>Do pipeline à interface, da análise exploratória à aplicação. Uma seleção de projetos que evidencia decisões técnicas, integração de ferramentas e pensamento sistêmico.</p></div>
+      <div class="filters" role="group" aria-label="Filtrar projetos">
+        <button class="filter active" data-filter="all">Todos <span>06</span></button>
+        <button class="filter" data-filter="data">Data engineering</button>
+        <button class="filter" data-filter="software">Software</button>
+        <button class="filter" data-filter="health">Health & AI</button>
+        <button class="filter" data-filter="research">Research</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured" data-category="data software">
+          <div class="project-top"><span class="project-type">01 / DATA PLATFORM</span><span class="project-arrow">↗</span></div>
+          <div class="project-art art-election"><div class="chart-grid"></div><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="chart-caption">ELECTION DATA / PIPELINE</div><div class="chart-line"></div></div>
+          <h3>U.S. Electoral Observatory</h3><p>Plataforma de dados eleitorais com pipeline em camadas Raw → Bronze → Silver → Gold, validação, DuckDB, FastAPI e visualização analítica.</p>
+          <div class="tags"><span>Python</span><span>DuckDB</span><span>FastAPI</span><span>Data pipeline</span></div>
+          <a class="project-link" href="https://github.com/iamdatagabs/voting_project" target="_blank" rel="noreferrer">Explorar repositório <b>↗</b></a>
+        </article>
+        <article class="project-card" data-category="software data">
+          <div class="project-top"><span class="project-type">02 / GEOSPATIAL</span><span class="project-arrow">↗</span></div>
+          <div class="project-art art-map"><div class="map-contours"></div><div class="map-pin pin-a"></div><div class="map-pin pin-b"></div><div class="map-pin pin-c"></div><span class="map-label">US / ELECTORAL MAP</span></div>
+          <h3>U.S. Election Map</h3><p>Visualização geográfica interativa, dados eleitorais versionados e publicação automatizada.</p>
+          <div class="tags"><span>JavaScript</span><span>Geo data</span><span>GitHub Pages</span></div>
+          <a class="project-link" href="https://github.com/iamdatagabs/us-election-map" target="_blank" rel="noreferrer">Explorar repositório <b>↗</b></a>
+        </article>
+        <article class="project-card" data-category="research data">
+          <div class="project-top"><span class="project-type">03 / STATISTICAL COMPUTING</span><span class="project-arrow">↗</span></div>
+          <div class="project-art art-stat"><div class="stat-equation">Σ <small>xᵢ − μ</small></div><div class="stat-plot"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="stat-axis">MODEL / DISTRIBUTION / INFERENCE</div></div>
+          <h3>Estatística Experimental</h3><p>Ambiente de análise em R e Python, testes automatizados, dashboard interativo e experiência PWA.</p>
+          <div class="tags"><span>R</span><span>Python</span><span>Statistics</span><span>PWA</span></div>
+          <a class="project-link" href="https://github.com/iamdatagabs/EstatisticaExperimentalUEPG" target="_blank" rel="noreferrer">Explorar repositório <b>↗</b></a>
+        </article>
+        <article class="project-card" data-category="health research">
+          <div class="project-top"><span class="project-type">04 / MEDICAL AI</span><span class="project-arrow">↗</span></div>
+          <div class="project-art art-neural"><div class="neural-net"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div><span class="neural-caption">REPRESENTATION LEARNING</span></div>
+          <h3>NeuralRepo</h3><p>Pesquisa experimental em deep learning para imagens médicas heterogêneas, com foco em generalização, TinyML e domain adaptation.</p>
+          <div class="tags"><span>PyTorch</span><span>Medical imaging</span><span>TinyML</span></div>
+          <a class="project-link" href="https://github.com/iamdatagabs/neuralrepo" target="_blank" rel="noreferrer">Explorar repositório <b>↗</b></a>
+        </article>
+        <article class="project-card" data-category="health data research">
+          <div class="project-top"><span class="project-type">05 / CLINICAL DATA SCIENCE</span><span class="project-arrow">↗</span></div>
+          <div class="project-art art-heart"><div class="heart-pulse">♡</div><svg viewBox="0 0 500 100" role="img" aria-label="Traçado ilustrativo de sinal"><path d="M0 52 H100 L125 52 L145 22 L165 82 L185 4 L205 65 L225 52 H300 L325 52 L345 22 L365 82 L385 4 L405 65 L425 52 H500"/></svg><span class="heart-caption">SIGNAL · MODEL · EXPLAIN</span></div>
+          <h3>Coronary Monorepo</h3><p>Pipeline de análise cardiovascular com estatística clínica, machine learning, calibração, métricas diagnósticas e explicabilidade.</p>
+          <div class="tags"><span>Python</span><span>ML</span><span>Explainability</span><span>Clinical data</span></div>
+          <a class="project-link" href="https://github.com/iamdatagabs/coronary_monorepo" target="_blank" rel="noreferrer">Explorar repositório <b>↗</b></a>
+        </article>
+        <article class="project-card" data-category="research data">
+          <div class="project-top"><span class="project-type">06 / SPATIAL ANALYTICS</span><span class="project-arrow">↗</span></div>
+          <div class="project-art art-spatial"><div class="spatial-rings"></div><div class="spatial-node"></div><span class="spatial-caption">SPACE · MODEL · INSIGHT</span></div>
+          <h3>Econometria Espacial</h3><p>Laboratório de análise espacial, estatística, econometria e visualização para investigar padrões e relações territoriais.</p>
+          <div class="tags"><span>R</span><span>Spatial data</span><span>Econometrics</span></div>
+          <a class="project-link" href="https://github.com/iamdatagabs/econometria_espacial" target="_blank" rel="noreferrer">Explorar repositório <b>↗</b></a>
+        </article>
+      </div>
+      <div class="all-repos"><a href="https://github.com/iamdatagabs?tab=repositories" target="_blank" rel="noreferrer">Ver todos os repositórios no GitHub <span>↗</span></a></div>
+    </section>
+
+    <section id="expertise" class="expertise-band">
+      <div class="section-wrap section-block">
+        <div class="section-heading"><div><span class="eyebrow">CAPABILITIES / TOOLKIT</span><h2>Uma stack a serviço<br><span class="muted">do problema.</span></h2></div><p>Ferramentas são meios. Meu foco é construir sistemas confiáveis, compreensíveis e sustentáveis — com atenção à qualidade dos dados e ao contexto de uso.</p></div>
+        <div class="expertise-grid">
+          <div class="expertise-item"><span class="expertise-number">01</span><div class="expertise-icon">⌘</div><h3>Data Engineering</h3><p>Ingestão, transformação, modelagem, qualidade, integração e governança de dados.</p><div class="stack-list">Python · SQL · DuckDB · pandas · PyArrow · MongoDB · Neo4j</div></div>
+          <div class="expertise-item"><span class="expertise-number">02</span><div class="expertise-icon">⌬</div><h3>Software Engineering</h3><p>Backend, APIs, arquitetura modular, automação, testes e entrega contínua.</p><div class="stack-list">FastAPI · JavaScript · Git · Docker · GitHub Actions</div></div>
+          <div class="expertise-item"><span class="expertise-number">03</span><div class="expertise-icon">⌁</div><h3>Data Science & AI</h3><p>Estatística aplicada, modelagem preditiva, aprendizado de máquina e visualização.</p><div class="stack-list">R · Python · PyTorch · scikit-learn · D3.js</div></div>
+          <div class="expertise-item"><span class="expertise-number">04</span><div class="expertise-icon">✳</div><h3>Digital Health</h3><p>Informática médica, dados clínicos, imagens médicas e IA explicável em saúde.</p><div class="stack-list">Medical imaging · TinyML · Explainable AI · Health data</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="trajectory" class="section-wrap section-block trajectory">
+      <div class="section-heading"><div><span class="eyebrow">BACKGROUND / PERSPECTIVE</span><h2>Interdisciplinaridade<br><span class="muted">como método.</span></h2></div><p>Uma trajetória que combina tecnologia, pesquisa, educação e saúde. Diferentes campos me ensinaram a formular perguntas melhores antes de escolher ferramentas.</p></div>
+      <div class="timeline">
+        <div class="timeline-row"><span class="timeline-date">FORMAÇÃO</span><div><h3>Computação + Geografia</h3><p>Bacharel em Geografia pela UFV e mestre em Ciência e Engenharia da Computação pela UEPG. Formação que conecta pensamento espacial, análise de sistemas e computação aplicada.</p></div><span class="timeline-index">01</span></div>
+        <div class="timeline-row"><span class="timeline-date">ATUAÇÃO</span><div><h3>Engenharia, docência e pesquisa</h3><p>Atuação em tecnologia, gestão de projetos, desenvolvimento de soluções e docência universitária em Banco de Dados e Engenharia de Software.</p></div><span class="timeline-index">02</span></div>
+        <div class="timeline-row"><span class="timeline-date">EM CURSO</span><div><h3>Saúde Digital & tecnologia em saúde</h3><p>Mestrado Profissional em Medicina na UEM, com direcionamento para tecnologia em saúde e pesquisa em aplicações computacionais para problemas clínicos.</p></div><span class="timeline-index">03</span></div>
+        <div class="timeline-row"><span class="timeline-date">COMUNIDADE</span><div><h3>Compartilhar conhecimento</h3><p>Docência, comunidades de tecnologia e iniciativas de diversidade, inclusão e democratização do acesso ao conhecimento.</p></div><span class="timeline-index">04</span></div>
+      </div>
+      <div class="positioning-note"><span>NOTA SOBRE EXPERIÊNCIA</span><p>Minha trajetória profissional soma cerca de uma década em diferentes contextos. A experiência em cargos técnicos formais é mais recente; por isso, este portfólio prioriza evidências concretas de implementação, documentação e evolução técnica, sem confundir tempo total de carreira com tempo em funções específicas de engenharia.</p></div>
+    </section>
+
+    <section class="principles section-wrap">
+      <span class="eyebrow">ENGINEERING PRINCIPLES</span>
+      <div class="principle-quote">“Não basta fazer funcionar.<br>É preciso entender <span class="gradient-text">por que funciona</span>,<br>como evolui e quem pode confiar.”</div>
+      <div class="principle-foot"><span>QUALIDADE · RASTREABILIDADE · IMPACTO</span><span>GABRIEL PASSOS / 2026</span></div>
+    </section>
+
+    <section id="contact" class="contact section-wrap">
+      <div><span class="eyebrow">LET'S BUILD SOMETHING MEANINGFUL</span><h2>Vamos transformar<br>uma boa pergunta<br>em <span class="gradient-text">um projeto real.</span></h2></div>
+      <div class="contact-side"><p>Aberto a colaborações, pesquisa aplicada e desafios em engenharia de dados, software, ciência de dados e saúde digital.</p><a class="button button-primary" href="https://github.com/iamdatagabs" target="_blank" rel="noreferrer">Conectar no GitHub <span>↗</span></a><a class="contact-link" href="mailto:">Contato por e-mail <span>↗</span></a><div class="social-links"><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/iamdatagabs" target="_blank" rel="noreferrer">GitHub ↗</a></div></div>
+    </section>
+  </main>
+  <footer class="footer section-wrap"><a class="wordmark" href="#home"><span class="mark">GP</span><span>GABRIEL PASSOS<span class="wordmark-sub">ENGINEERING PORTFOLIO</span></span></a><span>© 2026 · BUILT WITH CURIOSITY & CODE</span><a href="#home">BACK TO TOP ↑</a></footer>
+</body>
+</html>
