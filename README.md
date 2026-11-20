@@ -40,6 +40,7 @@ Projetos selecionados para demonstrar diferentes etapas do ciclo de engenharia: 
 
 | Projeto | O que demonstra |
 |---|---|
+| [AKStats — ARID2–MAPK in Actinic Keratosis & cSCC](https://iamdatagabs.github.io/akstats/) | Portal de pesquisa em bioinformática com pipeline reprodutível, análise de alterações genômicas, módulos moleculares e dashboard exploratório para queratose actínica e carcinoma espinocelular cutâneo. [Repositório](https://github.com/iamdatagabs/akstats). |
 | [U.S. Electoral Observatory](https://github.com/iamdatagabs/voting_project) | Plataforma de engenharia de dados: pipeline Raw → Bronze → Silver → Gold, validação, DuckDB, FastAPI e dashboard. |
 | [U.S. Election Map](https://github.com/iamdatagabs/us-election-map) | Aplicação de visualização geográfica interativa, dados eleitorais versionados e publicação automatizada. |
 | [Estatística Experimental](https://github.com/iamdatagabs/EstatisticaExperimentalUEPG) | Ferramentas analíticas em R e Python, testes automatizados, dashboard e PWA. |
