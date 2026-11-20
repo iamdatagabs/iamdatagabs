@@ -40,5 +40,5 @@ stats = {
 }
 with open("portfolio/github-stats.json", "w", encoding="utf-8") as file:
     json.dump(stats, file, ensure_ascii=False, indent=2)
-    file.write("\\n")
+    file.write("\n")
 print(json.dumps(stats, ensure_ascii=False))

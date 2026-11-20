@@ -20,12 +20,12 @@ jobs:
         run: python .github/scripts/update_github_stats.py
       - name: Publicar indicadores atualizados
         run: |
-          if git diff --quiet -- portfolio/github-stats.json; then
+          if [ ! -f portfolio/github-stats.json ] || ! git diff --quiet -- portfolio/github-stats.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add portfolio/github-stats.json
+            git commit -m "chore: atualiza indicadores do GitHub"
+            git push
+          else
             echo "Indicadores sem alterações."
-            exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add portfolio/github-stats.json
-          git commit -m "chore: atualiza indicadores do GitHub"
-          git push
