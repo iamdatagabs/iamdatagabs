@@ -44,7 +44,7 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 |---|---|---|
 | **AKStats — ARID2–MAPK Research Portal** | [Portal de pesquisa](https://iamdatagabs.github.io/akstats/) · [Dashboard](https://iamdatagabs.github.io/akstats/dashboard.html) | [Repositório](https://github.com/iamdatagabs/akstats) |
 | **U.S. Election Map** | [Mapa eleitoral interativo](https://iamdatagabs.github.io/us-election-map/) | [Repositório](https://github.com/iamdatagabs/us-election-map) |
-| **Estatística Experimental** | [Aplicativo PWA](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/app/) · [Dashboard](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/) | [Repositório](https://github.com/iamdatagabs/EstatisticaExperimentalUEPG) |
+| **Estatística Experimental** | [Aplicativo PWA](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/app/) · [Dashboard](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/) · [Painel](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/painel.html) | [Repositório](https://github.com/iamdatagabs/EstatisticaExperimentalUEPG) |
 | **Econometria Espacial** | [Laboratório interativo](https://iamdatagabs.github.io/econometria_espacial/) | [Repositório](https://github.com/iamdatagabs/econometria_espacial) |
 
 ### Repositórios de engenharia e pesquisa
@@ -54,6 +54,7 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 | [U.S. Electoral Observatory](https://github.com/iamdatagabs/voting_project) | Plataforma de engenharia de dados: pipeline Raw → Bronze → Silver → Gold, validação, DuckDB, FastAPI e dashboard. |
 | [NeuralRepo](https://github.com/iamdatagabs/neuralrepo) | Pesquisa experimental em deep learning para imagens médicas, TinyML e domain adaptation. |
 | [Coronary Monorepo](https://github.com/iamdatagabs/coronary_monorepo) | Pipeline de análise cardiovascular com estatística clínica, machine learning, calibração, métricas diagnósticas e explicabilidade. |
+| [CarbonApp](https://github.com/iamdatagabs/carbonapp) | Engenharia e avaliação reprodutível de modelos com espectroscopia NIR para estimativa de carbono orgânico total no solo; inclui controle de qualidade, validação agrupada e análise crítica do ganho preditivo. |
 
 [Ver todos os repositórios no GitHub](https://github.com/iamdatagabs?tab=repositories) · [Abrir portfólio completo](https://iamdatagabs.github.io/iamdatagabs/portfolio/)
 
