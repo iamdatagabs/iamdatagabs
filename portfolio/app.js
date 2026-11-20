@@ -1,1 +1,21 @@
-const number=n=>new Intl.NumberFormat('pt-BR').format(n||0);async function loadGithub(){const status=document.getElementById('api-status');try{const [userResponse,reposResponse]=await Promise.all([fetch('https://api.github.com/users/iamdatagabs'),fetch('https://api.github.com/users/iamdatagabs/repos?per_page=100&sort=updated')]);if(!userResponse.ok||!reposResponse.ok)throw new Error('GitHub API indisponível');const user=await userResponse.json();const repos=await reposResponse.json();const publicRepos=repos.filter(repo=>!repo.fork);document.getElementById('repo-count').textContent=number(user.public_repos);document.getElementById('star-count').textContent=number(publicRepos.reduce((sum,repo)=>sum+repo.stargazers_count,0));document.getElementById('follower-count').textContent=number(user.followers);status.textContent='Conectado · GitHub API';}catch(error){status.textContent='Indicadores temporariamente indisponíveis';document.getElementById('repo-count').textContent='—';document.getElementById('star-count').textContent='—';document.getElementById('follower-count').textContent='—';}}loadGithub();
+async function loadGithub(){
+  const status=document.getElementById('api-status');
+  const fields={repos:document.getElementById('repo-count'),stars:document.getElementById('star-count'),followers:document.getElementById('follower-count')};
+  const number=n=>new Intl.NumberFormat('pt-BR').format(n);
+  try{
+    const response=await fetch('./github-stats.json?t='+Date.now(),{cache:'no-store'});
+    if(!response.ok) throw new Error('Arquivo de indicadores indisponível');
+    const data=await response.json();
+    if(!Number.isFinite(data.public_repos)||!Number.isFinite(data.stars)||!Number.isFinite(data.followers)) throw new Error('Indicadores incompletos');
+    fields.repos.textContent=number(data.public_repos);
+    fields.stars.textContent=number(data.stars);
+    fields.followers.textContent=number(data.followers);
+    const updated=data.updated_at?new Date(data.updated_at):null;
+    status.textContent=updated&&!Number.isNaN(updated.getTime())?'Dados sincronizados · '+updated.toLocaleString('pt-BR'):'Dados sincronizados';
+  }catch(error){
+    status.textContent='Não foi possível carregar os indicadores';
+    Object.values(fields).forEach(field=>field.textContent='—');
+    console.error('Falha ao carregar indicadores do GitHub:',error);
+  }
+}
+loadGithub();
