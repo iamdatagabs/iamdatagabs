@@ -3,7 +3,7 @@ async function loadGithub(){
   const fields={repos:document.getElementById('repo-count'),stars:document.getElementById('star-count'),followers:document.getElementById('follower-count')};
   const number=n=>new Intl.NumberFormat('pt-BR').format(n);
   try{
-    const response=await fetch('./github-stats.json? t='+Date.now(),{cache:'no-store'});
+    const response=await fetch('./github-stats.json?t='+Date.now(),{cache:'no-store'});
     if(!response.ok) throw new Error('Arquivo de indicadores indisponível');
     const data=await response.json();
     if(!Number.isFinite(data.public_repos)||!Number.isFinite(data.stars)||!Number.isFinite(data.followers)) throw new Error('Indicadores incompletos');
