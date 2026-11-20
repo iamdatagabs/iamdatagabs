@@ -36,20 +36,28 @@ Tenho formação em Geografia, mestrado em Ciência e Engenharia da Computação
 
 ## Projetos em destaque
 
-Projetos selecionados para demonstrar diferentes etapas do ciclo de engenharia: dados, backend, análise, visualização, reprodutibilidade e aplicações em saúde.
+Explore os projetos em duas categorias: **produtos interativos**, para experimentar as aplicações publicadas, e **repositórios**, para consultar código, arquitetura, documentação e pipelines.
 
-| Projeto | O que demonstra |
+### Produtos interativos
+
+| Produto | Acesso à aplicação | Código-fonte |
+|---|---|---|
+| **AKStats — ARID2–MAPK Research Portal** | [Portal de pesquisa](https://iamdatagabs.github.io/akstats/) · [Dashboard](https://iamdatagabs.github.io/akstats/dashboard.html) | [Repositório](https://github.com/iamdatagabs/akstats) |
+| **U.S. Election Map** | [Mapa eleitoral interativo](https://iamdatagabs.github.io/us-election-map/) | [Repositório](https://github.com/iamdatagabs/us-election-map) |
+| **Estatística Experimental** | [Aplicativo PWA](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/app/) · [Dashboard](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/) | [Repositório](https://github.com/iamdatagabs/EstatisticaExperimentalUEPG) |
+| **Econometria Espacial** | [Laboratório interativo](https://iamdatagabs.github.io/econometria_espacial/) | [Repositório](https://github.com/iamdatagabs/econometria_espacial) |
+
+### Repositórios de engenharia e pesquisa
+
+| Repositório | Escopo técnico |
 |---|---|
-| [AKStats — ARID2–MAPK in Actinic Keratosis & cSCC](https://iamdatagabs.github.io/akstats/) | Portal de pesquisa em bioinformática com pipeline reprodutível, análise de alterações genômicas, módulos moleculares e dashboard exploratório para queratose actínica e carcinoma espinocelular cutâneo. [Repositório](https://github.com/iamdatagabs/akstats). |
 | [U.S. Electoral Observatory](https://github.com/iamdatagabs/voting_project) | Plataforma de engenharia de dados: pipeline Raw → Bronze → Silver → Gold, validação, DuckDB, FastAPI e dashboard. |
-| [U.S. Election Map](https://github.com/iamdatagabs/us-election-map) | Aplicação de visualização geográfica interativa, dados eleitorais versionados e publicação automatizada. |
-| [Estatística Experimental](https://github.com/iamdatagabs/EstatisticaExperimentalUEPG) | Ferramentas analíticas em R e Python, testes automatizados, dashboard e PWA. |
-| [Econometria Espacial](https://github.com/iamdatagabs/econometria_espacial) | Laboratório de análise espacial, estatística, econometria e visualização interativa. |
 | [NeuralRepo](https://github.com/iamdatagabs/neuralrepo) | Pesquisa experimental em deep learning para imagens médicas, TinyML e domain adaptation. |
 | [Coronary Monorepo](https://github.com/iamdatagabs/coronary_monorepo) | Pipeline de análise cardiovascular com estatística clínica, machine learning, calibração, métricas diagnósticas e explicabilidade. |
 
-> Os projetos de saúde são iniciativas de pesquisa e demonstração computacional. Não são dispositivos médicos validados nem substituem avaliação profissional ou decisão clínica.
+[Ver todos os repositórios no GitHub](https://github.com/iamdatagabs?tab=repositories) · [Abrir portfólio completo](https://iamdatagabs.github.io/iamdatagabs/portfolio/)
 
+> Os projetos de saúde são iniciativas de pesquisa e demonstração computacional. Não são dispositivos médicos validados nem substituem avaliação profissional ou decisão clínica.
 ---
 
 ## Stack & ferramentas
