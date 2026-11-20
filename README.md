@@ -1,106 +1,141 @@
 <div align="center">
 
-# 👋 Olá, eu sou Gabriel Passos  
+# Gabriel Passos
+### Data Engineer · Software Engineer · Digital Health & AI
 
-<img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3500&color=E10600&center=true&vCenter=true&width=600&lines=AI+for+Healthcare+Researcher;Data+Science+%7C+Bioinformatics+%7C+Medical+AI;Bridging+research+and+real+world+impact" alt="Typing SVG" />
+**Construindo sistemas orientados a dados — da engenharia e governança da informação a aplicações inteligentes em saúde.**
 
----
+[![GitHub followers](https://img.shields.io/github/followers/iamdatagabs?style=flat&logo=github&label=Followers)](https://github.com/iamdatagabs?tab=followers)
+[![Profile views](https://komarev.com/ghpvc/?username=iamdatagabs&style=flat&color=blue)](https://github.com/iamdatagabs)
+![Focus](https://img.shields.io/badge/Focus-Data%20%7C%20Software%20%7C%20Health-0A7EA4)
 
-![Profile Views](https://komarev.com/ghpvc/?username=iamdatagabs&color=blue)
-![GitHub followers](https://img.shields.io/github/followers/iamdatagabs?style=social)
-![Status](https://img.shields.io/badge/status-building%20real%20impact-brightgreen)
+[GitHub](https://github.com/iamdatagabs) · [Repositories](https://github.com/iamdatagabs?tab=repositories)
 
 </div>
 
 ---
 
-## 🧠 Quem sou eu?
+## Sobre
 
-Sou brasileiro (Sorocaba - SP), pesquisador em IA focado em tirar modelos do notebook e levar para o mundo real.
+Sou profissional de tecnologia, pesquisador e docente universitário, com **10 anos de trajetória profissional** e formação interdisciplinar. Atuo na interseção entre **Engenharia de Dados, Engenharia de Software, Ciência de Dados e Saúde Digital**.
 
-Tenho:
-- 26 anos  
-- Background interdisciplinar  
-- Interesse em problemas reais (não só benchmarks)  
-- Um sistema movido a suco de maçã 🍎  
+Minha experiência foi construída em diferentes contextos — academia, educação, pesquisa, desenvolvimento de soluções e gestão de projetos. Isso me deu maturidade para compreender problemas, estruturar processos, dialogar com diferentes áreas e transformar necessidades complexas em entregas técnicas.
 
-Meu foco: **IA aplicada à saúde com impacto clínico real**.
+Tenho formação em Geografia, mestrado em Ciência e Engenharia da Computação e formação em Medicina em andamento, com direcionamento para tecnologia em saúde. Minha atuação técnica combina desenvolvimento de software, modelagem e integração de dados, análise estatística, automação e construção de aplicações.
 
----
+**Meu posicionamento:** senioridade construída ao longo de uma trajetória profissional ampla, com atuação técnica em evolução e aprofundamento contínuo em engenharia. Não confundo tempo de carreira com tempo em cargos formais de engenharia: prefiro demonstrar minha capacidade por meio de arquitetura, código, documentação, testes e projetos executáveis.
 
-## 🎓 Formação acadêmica
+### Áreas de atuação
 
-- 🎓 Doutorando em Ciência da Computação — PUCPR  
-- 🎓 Mestrado em Computação Aplicada — UEPG  
-- 🎓 Bacharelado em Geografia — UFV  
-
-> Caminho não-linear, mas totalmente intencional.
+- **Engenharia de Dados:** ingestão, transformação, validação, modelagem, qualidade e rastreabilidade de dados.
+- **Engenharia de Software:** APIs, backend, arquitetura modular, automação, testes, CI/CD e documentação.
+- **Analytics & Data Science:** estatística aplicada, análise exploratória, modelagem preditiva e visualização.
+- **Digital Health & Health AI:** informática médica, análise de dados clínicos, imagens médicas, IA explicável e sistemas de apoio à decisão.
 
 ---
 
-## 🧰 Tech Stack
+## Projetos em destaque
 
-### 💻 Linguagens & Ferramentas
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)
+Projetos selecionados para demonstrar diferentes etapas do ciclo de engenharia: dados, backend, análise, visualização, reprodutibilidade e aplicações em saúde.
 
-### 🧠 Data & Machine Learning
-- Machine Learning aplicado à saúde  
-- Análise estatística avançada (R)  
-- Pipelines reprodutíveis  
-- Modelos voltados para ambiente clínico  
+| Projeto | O que demonstra |
+|---|---|
+| [U.S. Electoral Observatory](https://github.com/iamdatagabs/voting_project) | Plataforma de engenharia de dados: pipeline Raw → Bronze → Silver → Gold, validação, DuckDB, FastAPI e dashboard. |
+| [U.S. Election Map](https://github.com/iamdatagabs/us-election-map) | Aplicação de visualização geográfica interativa, dados eleitorais versionados e publicação automatizada. |
+| [Estatística Experimental](https://github.com/iamdatagabs/EstatisticaExperimentalUEPG) | Ferramentas analíticas em R e Python, testes automatizados, dashboard e PWA. |
+| [Econometria Espacial](https://github.com/iamdatagabs/econometria_espacial) | Laboratório de análise espacial, estatística, econometria e visualização interativa. |
+| [NeuralRepo](https://github.com/iamdatagabs/neuralrepo) | Pesquisa experimental em deep learning para imagens médicas, TinyML e domain adaptation. |
+| [Coronary Monorepo](https://github.com/iamdatagabs/coronary_monorepo) | Pipeline de análise cardiovascular com estatística clínica, machine learning, calibração, métricas diagnósticas e explicabilidade. |
 
----
-
-## 🏥 Área de atuação
-
-- Informática Médica  
-- Bioinformática  
-- Inteligência Artificial aplicada à saúde  
-
-🎯 **Objetivo:** transformar pesquisa em decisão clínica real.
+> Os projetos de saúde são iniciativas de pesquisa e demonstração computacional. Não são dispositivos médicos validados nem substituem avaliação profissional ou decisão clínica.
 
 ---
 
-## 📊 GitHub Stats
+## Stack & ferramentas
 
 <div align="center">
 
-<!-- Versão mais estável (sem cache agressivo) -->
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=iamdatagabs&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
+### Linguagens
+<img src="https://skillicons.dev/icons?i=python,r,js,html,css&perline=8" alt="Python, R, JavaScript, HTML e CSS" />
 
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamdatagabs&layout=compact&theme=tokyonight" alt="Top Languages"/>
+### Dados, backend & armazenamento
+<img src="https://skillicons.dev/icons?i=fastapi,postgres,mongodb,sqlite,docker&perline=8" alt="FastAPI, PostgreSQL, MongoDB, SQLite e Docker" />
+
+### Ciência de dados, IA & visualização
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn,d3&perline=8" alt="PyTorch, scikit-learn e D3.js" />
+
+### Engenharia & colaboração
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,vscode&perline=8" alt="Git, GitHub, GitHub Actions, Linux e VS Code" />
 
 </div>
 
----
+**Tecnologias e ferramentas utilizadas em projetos:** Python, R, JavaScript, SQL, FastAPI, pandas, PyArrow, DuckDB, MongoDB, Neo4j, SQLite, PyTorch, scikit-learn, D3.js, Docker, GitHub Actions e GitHub Pages.
 
-## 🧪 Projetos em foco
-
-- 🧠 Modelos para análise de imagens médicas (MRI, visão computacional)  
-- ⚙️ Integração entre pesquisa e aplicação clínica  
+*As tecnologias acima representam ferramentas presentes no meu trabalho e nos repositórios; a profundidade de experiência varia conforme o projeto.*
 
 ---
 
-## 💬 Filosofia de trabalho
+## Formação & desenvolvimento
 
-> “Se não funciona no hospital, ainda não está pronto.”  
-> “Benchmark não salva paciente.”  
-> “Medicina é a ciência da incerteza e a arte da probabilidade.”
+- **Mestrado em Ciência e Engenharia da Computação** — Universidade Estadual de Ponta Grossa (UEPG).
+- **Bacharelado em Geografia** — Universidade Federal de Viçosa (UFV).
+- **Mestrado Profissional em Medicina — Tecnologia em Saúde** — Universidade Estadual de Maringá (UEM), em andamento.
+
+### Certificações e desenvolvimento profissional
+
+- Neo4j Graph Data Science Certification.
+- MongoDB Certification.
+- Certificação em Cibersegurança — IBSEC.
+- Lean Six Sigma.
 
 ---
 
-## 🗄️ Certificações & Skills
+## Comunidade, ensino & liderança
 
-![MongoDB](https://img.shields.io/badge/MongoDB-Skill%20Badge-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+A engenharia também é feita de colaboração, formação de pessoas e construção de comunidades.
+
+- Docência universitária em disciplinas de Banco de Dados e Engenharia de Software, com atuação também em Ciência de Dados.
+- Atuação em iniciativas de diversidade, inclusão e democratização do acesso à tecnologia.
+- Participação em comunidades e iniciativas de inovação em saúde digital.
 
 ---
 
-## 🚀 Final
+## GitHub insights
 
-Se você chegou até aqui:
-- ou você curte tecnologia  
-- ou você acredita em impacto real com IA  
+<div align="center">
 
-Nos dois casos: **bem-vindo.**
+<a href="https://github.com/iamdatagabs">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=iamdatagabs&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="Estatísticas gerais do GitHub" />
+</a>
+<a href="https://github.com/iamdatagabs">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamdatagabs&layout=compact&hide_border=true&langs_count=8" alt="Linguagens mais utilizadas nos repositórios" />
+</a>
+
+<img src="https://streak-stats.demolab.com?user=iamdatagabs&hide_border=true" alt="GitHub contribution streak" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamdatagabs&theme=github" alt="Resumo de atividade do GitHub" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=iamdatagabs&hide_border=true&area=true" alt="Gráfico de atividade do GitHub" />
+
+</div>
+
+<sub>Os painéis são gerados por serviços externos e podem apresentar indisponibilidade, cache ou diferenças de classificação. A seção de linguagens reflete a composição dos repositórios públicos, não uma medida direta de proficiência ou tempo de uso.</sub>
+
+---
+
+## Vamos conversar?
+
+Tenho interesse em projetos e colaborações em:
+
+- Engenharia de Dados e plataformas analíticas;
+- Engenharia de Software e backend;
+- Ciência de Dados e IA aplicada;
+- Informática Médica, Saúde Digital e engenharia de software para saúde.
+
+**Código bem projetado, dados confiáveis e tecnologia orientada a problemas reais.**
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-iamdatagabs-181717?style=for-the-badge&logo=github)](https://github.com/iamdatagabs)
+
+</div>
