@@ -112,3 +112,5 @@ body{background:var(--bg);color:var(--text)}
 .footer>span,.footer>a:last-child{color:#88796c}
 @media(max-width:900px){.expertise-item:nth-child(2){border-right:0}}
 @media(max-width:620px){.topbar nav{color:#69584d}.expertise-item{border-bottom-color:rgba(243,238,229,.2)}.principle-quote{font-size:34px}}
+
+/* Build trigger: keep the visual portfolio as the Pages entry experience. */
