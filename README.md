@@ -70,11 +70,11 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 
 <div align="center">
 
-### Linguagens
-<img src="https://skillicons.dev/icons?i=python,r,js,html,css&perline=8" alt="Python, R, JavaScript, HTML e CSS" />
+### Linguagens & desenvolvimento
+<img src="https://skillicons.dev/icons?i=python,java,kotlin,r,js,html,css&perline=8" alt="Python, Java, Kotlin, R, JavaScript, HTML e CSS" />
 
-### Dados, backend & armazenamento
-<img src="https://skillicons.dev/icons?i=fastapi,postgres,mongodb,sqlite,docker&perline=8" alt="FastAPI, PostgreSQL, MongoDB, SQLite e Docker" />
+### Backend, dados & infraestrutura
+<img src="https://skillicons.dev/icons?i=spring,fastapi,postgres,mongodb,sqlite,docker&perline=8" alt="Spring Boot, FastAPI, PostgreSQL, MongoDB, SQLite e Docker" />
 
 ### Ciência de dados, IA & visualização
 <img src="https://skillicons.dev/icons?i=pytorch,sklearn,d3&perline=8" alt="PyTorch, scikit-learn e D3.js" />
@@ -84,13 +84,15 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 
 </div>
 
-**Tecnologias e ferramentas utilizadas em projetos:** Python, R, Java, Kotlin, JavaScript, SQL, FastAPI, Spring Boot, PostgreSQL, RabbitMQ, pandas, PyArrow, DuckDB, MongoDB, Neo4j, SQLite, PyTorch, scikit-learn, D3.js, Docker, OpenSCAD, LaTeX, GitHub Actions e GitHub Pages.
+**Stack aplicada nos projetos:** Python, R, Java 21, Kotlin, JavaScript, SQL, FastAPI, Spring Boot, PostgreSQL, RabbitMQ, pandas, PyArrow, DuckDB, MongoDB, Neo4j, SQLite, PyTorch, scikit-learn, ONNX, Docker, OpenSCAD, LaTeX, GitHub Actions e GitHub Pages.
 
-*As tecnologias acima representam ferramentas presentes no meu trabalho e nos repositórios; a profundidade de experiência varia conforme o projeto.*
+**Métodos e ferramentas de engenharia:** modelagem ODE/PDE, métodos numéricos, volumes finitos (CFD reduzida), análise estatística, Monte Carlo, MCMC, análise de incerteza, APIs REST, mensageria assíncrona, workers distribuídos e visualização científica.
+
+*As tecnologias representam ferramentas efetivamente presentes nos projetos; a profundidade de experiência varia conforme o contexto e o estágio de cada implementação.*
 
 ---
 
-## Formação & desenvolvimento
+
 
 - **Mestrado em Ciência e Engenharia da Computação** — Universidade Estadual de Ponta Grossa (UEPG).
 - **Bacharelado em Geografia** — Universidade Federal de Viçosa (UFV).
@@ -123,10 +125,21 @@ A engenharia também é feita de colaboração, formação de pessoas e constru�
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=iamdatagabs&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="Estatísticas gerais do GitHub" />
 </a>
 <a href="https://github.com/iamdatagabs">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamdatagabs&layout=compact&hide_border=true&langs_count=8" alt="Linguagens mais utilizadas nos repositórios" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamdatagabs&layout=compact&hide_border=true&langs_count=10" alt="Distribuição de linguagens nos repositórios" />
 </a>
 
-<img src="https://streak-stats.demolab.com?user=iamdatagabs&hide_border=true" alt="GitHub contribution streak" />
+### Projetos em evolução
+<a href="https://github.com/iamdatagabs/perfusion_lab">
+  <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=iamdatagabs&repo=perfusion_lab&hide_border=true" alt="PerfusionLab" />
+</a>
+<a href="https://github.com/iamdatagabs/carbonapp">
+  <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=iamdatagabs&repo=carbonapp&hide_border=true" alt="CarbonApp" />
+</a>
+<a href="https://github.com/iamdatagabs/spleen">
+  <img height="120" src="https://github-readme-stats.vercel.app/api/pin/?username=iamdatagabs&repo=spleen&hide_border=true" alt="SPLEEN" />
+</a>
+
+<img src="https://streak-stats.demolab.com?user=iamdatagabs&hide_border=true" alt="Sequência de contribuições no GitHub" />
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iamdatagabs&theme=github" alt="Resumo de atividade do GitHub" />
 
@@ -134,11 +147,11 @@ A engenharia também é feita de colaboração, formação de pessoas e constru�
 
 </div>
 
-<sub>Os painéis são gerados por serviços externos e podem apresentar indisponibilidade, cache ou diferenças de classificação. A seção de linguagens reflete a composição dos repositórios públicos, não uma medida direta de proficiência ou tempo de uso.</sub>
+<sub>Os painéis são gerados por serviços externos e podem apresentar cache ou indisponibilidade. Os cartões de repositório destacam projetos ativos; a distribuição de linguagens reflete código público, não proficiência individual. Métricas de contribuição variam conforme o período e as regras do GitHub.</sub>
 
 ---
 
-## Vamos conversar?
+
 
 Tenho interesse em projetos e colaborações em:
 
