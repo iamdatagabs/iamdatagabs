@@ -1,9 +1,9 @@
 <div align="center">
 
 # Gabriel Passos
-### Data Engineer · Software Engineer · Digital Health & AI
+### Data Engineer · Software Engineer · Computational Physiology & Digital Health
 
-**Construindo sistemas orientados a dados — da engenharia e governança da informação a aplicações inteligentes em saúde.**
+**Desenvolvendo software, modelos computacionais e plataformas orientadas a dados para investigar problemas reais — com foco crescente em fisiologia computacional, pesquisa biomédica e saúde digital.**
 
 [![GitHub followers](https://img.shields.io/github/followers/iamdatagabs?style=flat&logo=github&label=Followers)](https://github.com/iamdatagabs?tab=followers)
 [![Profile views](https://komarev.com/ghpvc/?username=iamdatagabs&style=flat&color=blue)](https://github.com/iamdatagabs)
@@ -17,11 +17,11 @@
 
 ## Sobre
 
-Sou profissional de tecnologia, pesquisador e docente universitário, com **10 anos de trajetória profissional** e formação interdisciplinar. Atuo na interseção entre **Engenharia de Dados, Engenharia de Software, Ciência de Dados e Saúde Digital**.
+Sou profissional de tecnologia, pesquisador e docente universitário, com **10 anos de trajetória profissional** e formação interdisciplinar. Atuo na interseção entre **Engenharia de Dados, Engenharia de Software, Ciência de Dados, Fisiologia Computacional e Saúde Digital**.
 
 Minha experiência foi construída em diferentes contextos — academia, educação, pesquisa, desenvolvimento de soluções e gestão de projetos. Isso me deu maturidade para compreender problemas, estruturar processos, dialogar com diferentes áreas e transformar necessidades complexas em entregas técnicas.
 
-Tenho formação em Geografia, mestrado em Ciência e Engenharia da Computação e formação em Medicina em andamento, com direcionamento para tecnologia em saúde. Minha atuação técnica combina desenvolvimento de software, modelagem e integração de dados, análise estatística, automação e construção de aplicações.
+Tenho formação em Geografia, mestrado em Ciência e Engenharia da Computação e mestrado profissional em Medicina em andamento, na área de Tecnologia em Saúde. Nos projetos recentes, venho aprofundando a aplicação de métodos numéricos, equações diferenciais, modelagem fisiológica, análise de incerteza e arquitetura de software a problemas biomédicos. Minha atuação combina desenvolvimento de APIs e aplicações, integração e análise de dados, experimentação computacional e documentação científica.
 
 **Meu posicionamento:** senioridade construída ao longo de uma trajetória profissional ampla, com atuação técnica em evolução e aprofundamento contínuo em engenharia. Não confundo tempo de carreira com tempo em cargos formais de engenharia: prefiro demonstrar minha capacidade por meio de arquitetura, código, documentação, testes e projetos executáveis.
 
@@ -30,7 +30,8 @@ Tenho formação em Geografia, mestrado em Ciência e Engenharia da Computação
 - **Engenharia de Dados:** ingestão, transformação, validação, modelagem, qualidade e rastreabilidade de dados.
 - **Engenharia de Software:** APIs, backend, arquitetura modular, automação, testes, CI/CD e documentação.
 - **Analytics & Data Science:** estatística aplicada, análise exploratória, modelagem preditiva e visualização.
-- **Digital Health & Health AI:** informática médica, análise de dados clínicos, imagens médicas, IA explicável e sistemas de apoio à decisão.
+- **Digital Health & Health AI:** informática médica, análise de dados clínicos, imagens médicas, IA explicável e sistemas de apoio à pesquisa e à decisão.
+- **Fisiologia Computacional & Engenharia Biomédica:** modelagem hemodinâmica, perfusão regional, transporte de concentração, simulação ODE/PDE, métodos numéricos e visualização científica.
 
 ---
 
@@ -45,6 +46,8 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 | **AKStats — ARID2–MAPK Research Portal** | [Portal de pesquisa](https://iamdatagabs.github.io/akstats/) · [Dashboard](https://iamdatagabs.github.io/akstats/dashboard.html) | [Repositório](https://github.com/iamdatagabs/akstats) |
 | **U.S. Election Map** | [Mapa eleitoral interativo](https://iamdatagabs.github.io/us-election-map/) | [Repositório](https://github.com/iamdatagabs/us-election-map) |
 | **Estatística Experimental** | [Aplicativo PWA](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/app/) · [Dashboard](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/) · [Painel](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/painel.html) | [Repositório](https://github.com/iamdatagabs/EstatisticaExperimentalUEPG) |
+| **PerfusionLab** | [Bancada computacional](https://iamdatagabs.github.io/perfusion_lab/frontend/workbench.html) · [MVP de pesquisa](https://iamdatagabs.github.io/perfusion_lab/mvp.html) | [Repositório](https://github.com/iamdatagabs/perfusion_lab) |
+| **SPLEEN — Splanchnic Perfusion Simulation Environment** | [Protótipo interativo](https://iamdatagabs.github.io/spleen/) | [Repositório](https://github.com/iamdatagabs/spleen) |
 | **Econometria Espacial** | [Laboratório interativo](https://iamdatagabs.github.io/econometria_espacial/) | [Repositório](https://github.com/iamdatagabs/econometria_espacial) |
 
 ### Repositórios de engenharia e pesquisa
@@ -54,7 +57,9 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 | [U.S. Electoral Observatory](https://github.com/iamdatagabs/voting_project) | Plataforma de engenharia de dados: pipeline Raw → Bronze → Silver → Gold, validação, DuckDB, FastAPI e dashboard. |
 | [NeuralRepo](https://github.com/iamdatagabs/neuralrepo) | Pesquisa experimental em deep learning para imagens médicas, TinyML e domain adaptation. |
 | [Coronary Monorepo](https://github.com/iamdatagabs/coronary_monorepo) | Pipeline de análise cardiovascular com estatística clínica, machine learning, calibração, métricas diagnósticas e explicabilidade. |
-| [CarbonApp](https://github.com/iamdatagabs/carbonapp) | Plataforma de pesquisa em espectroscopia NIR do solo, com núcleo Python, API FastAPI pública somente leitura no Render e dashboard interativo no GitHub Pages; inclui validação agrupada, estabilidade espectral, incerteza, ONNX/TinyML e MVPs Java/Android. |
+| [CarbonApp](https://github.com/iamdatagabs/carbonapp) | Evolução de pesquisa de mestrado em espectroscopia NIR para uma plataforma de produto: núcleo Python para análise de TOC, validação agrupada, estabilidade espectral, incerteza, interpretabilidade e exportação ONNX/TinyML; dashboard científico público e MVP de captura com Java/Spring Boot, PostgreSQL, web e Android. |
+| [PerfusionLab](https://github.com/iamdatagabs/perfusion_lab) | Plataforma experimental de fisiologia cardiovascular e circulação extracorpórea: modelos acoplados ODE/PDE, transporte convectivo-difusivo-reativo, solver CFD reduzido por volumes finitos, visualização 3D e arquitetura Java/Spring Boot com persistência e processamento assíncrono. |
+| [SPLEEN](https://github.com/iamdatagabs/spleen) | Ambiente de simulação de perfusão esplâncnica em cirurgia digestiva: compartimentos arteriais regionais, pressão portal, balanços de fluxo, análise de sensibilidade e incerteza, Monte Carlo e MCMC exploratório com diagnósticos de múltiplas cadeias. |
 
 [Ver todos os repositórios no GitHub](https://github.com/iamdatagabs?tab=repositories) · [Abrir portfólio completo](https://iamdatagabs.github.io/iamdatagabs/portfolio/)
 
@@ -79,7 +84,7 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 
 </div>
 
-**Tecnologias e ferramentas utilizadas em projetos:** Python, R, JavaScript, SQL, FastAPI, pandas, PyArrow, DuckDB, MongoDB, Neo4j, SQLite, PyTorch, scikit-learn, D3.js, Docker, GitHub Actions e GitHub Pages.
+**Tecnologias e ferramentas utilizadas em projetos:** Python, R, Java, Kotlin, JavaScript, SQL, FastAPI, Spring Boot, PostgreSQL, RabbitMQ, pandas, PyArrow, DuckDB, MongoDB, Neo4j, SQLite, PyTorch, scikit-learn, D3.js, Docker, OpenSCAD, LaTeX, GitHub Actions e GitHub Pages.
 
 *As tecnologias acima representam ferramentas presentes no meu trabalho e nos repositórios; a profundidade de experiência varia conforme o projeto.*
 
@@ -140,7 +145,8 @@ Tenho interesse em projetos e colaborações em:
 - Engenharia de Dados e plataformas analíticas;
 - Engenharia de Software e backend;
 - Ciência de Dados e IA aplicada;
-- Informática Médica, Saúde Digital e engenharia de software para saúde.
+- Informática Médica, Saúde Digital e engenharia de software para saúde;
+- Fisiologia computacional, perfusão, modelagem biomédica e simulação de processos cirúrgicos.
 
 **Código bem projetado, dados confiáveis e tecnologia orientada a problemas reais.**
 
