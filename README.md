@@ -54,7 +54,7 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 | [U.S. Electoral Observatory](https://github.com/iamdatagabs/voting_project) | Plataforma de engenharia de dados: pipeline Raw → Bronze → Silver → Gold, validação, DuckDB, FastAPI e dashboard. |
 | [NeuralRepo](https://github.com/iamdatagabs/neuralrepo) | Pesquisa experimental em deep learning para imagens médicas, TinyML e domain adaptation. |
 | [Coronary Monorepo](https://github.com/iamdatagabs/coronary_monorepo) | Pipeline de análise cardiovascular com estatística clínica, machine learning, calibração, métricas diagnósticas e explicabilidade. |
-| [CarbonApp](https://github.com/iamdatagabs/carbonapp) | Engenharia e avaliação reprodutível de modelos com espectroscopia NIR para estimativa de carbono orgânico total no solo; inclui controle de qualidade, validação agrupada e análise crítica do ganho preditivo. |
+| [CarbonApp](https://github.com/iamdatagabs/carbonapp) | Plataforma de pesquisa em espectroscopia NIR do solo: núcleo científico Python, validação agrupada, estabilidade espectral, incerteza, interpretabilidade e exportação ONNX/TinyML; inclui MVP de captura com Spring Boot/PostgreSQL e protótipo Android. |
 
 [Ver todos os repositórios no GitHub](https://github.com/iamdatagabs?tab=repositories) · [Abrir portfólio completo](https://iamdatagabs.github.io/iamdatagabs/portfolio/)
 
