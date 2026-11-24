@@ -118,3 +118,29 @@ body{background:var(--bg);color:var(--text)}
 
 /* Separate live products from source repositories. */
 .work-subsection{margin-top:58px}.work-subheading{display:flex;align-items:end;justify-content:space-between;gap:32px;margin-bottom:22px;padding-bottom:18px;border-bottom:1px solid var(--line)}.work-subheading h3{font-family:var(--font-display,Manrope),sans-serif;font-size:clamp(27px,3vw,38px);font-weight:600;letter-spacing:-.04em;color:#30231f;margin:9px 0 0}.work-subheading>p{max-width:360px;color:#69584d;font-size:14px;line-height:1.7;margin:0}.repositories-subsection{margin-top:76px;padding-top:48px;border-top:1px solid var(--line)}.repositories-subsection .project-grid{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:900px){.repositories-subsection .project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.work-subheading{display:block}.work-subheading>p{margin-top:12px}.repositories-subsection .project-grid{grid-template-columns:1fr}.work-subsection{margin-top:42px}.repositories-subsection{margin-top:54px;padding-top:34px}}
+
+/* Data Health Engineering positioning */
+.health-engineering{padding-top:100px;padding-bottom:105px}
+.health-intro{max-width:900px;padding:25px 28px;border-left:3px solid #596b4d;background:rgba(89,107,77,.075);margin:0 0 24px}
+.health-kicker{font:500 9px var(--mono);letter-spacing:.16em;color:#596b4d}
+.health-intro p{font-size:16px;line-height:1.85;color:#4f443a;margin:12px 0 0}
+.health-pillars{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.health-pillars article{background:#faf7f1;border:1px solid rgba(72,53,41,.14);padding:22px 19px;min-height:220px}
+.health-pillars article>span{font:9px var(--mono);letter-spacing:.1em;color:#596b4d}
+.health-pillars h3{font:700 17px var(--display);margin:23px 0 8px;color:#30231f}
+.health-pillars p{font-size:12px;line-height:1.8;color:#69584d;margin:0}
+.health-architecture{margin-top:28px;padding:25px 22px;background:#34483a;color:#f3eee5}
+.health-architecture .health-kicker{color:#d8c3a5}
+.architecture-flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr auto 1fr;gap:10px;align-items:center;margin-top:20px}
+.architecture-flow>div{min-width:0;padding:14px 12px;border:1px solid rgba(243,238,229,.24);background:rgba(243,238,229,.055)}
+.architecture-flow b{display:block;font:500 10px var(--mono);letter-spacing:.08em;color:#f3eee5}
+.architecture-flow small{display:block;font-size:10px;line-height:1.5;color:#d8cfc2;margin-top:7px}
+.architecture-flow>i{font-style:normal;color:#d8c3a5}
+.health-focus{display:grid;grid-template-columns:.8fr 1.2fr;gap:40px;align-items:start;margin-top:35px;padding:26px 0;border-bottom:1px solid var(--line)}
+.health-focus h3{font:700 25px/1.2 var(--display);letter-spacing:-.04em;margin:12px 0;color:#30231f}
+.health-focus p{font-size:13px;line-height:1.9;color:#69584d;margin:0}
+.health-skills{margin-top:23px;display:flex;gap:25px;align-items:start}
+.health-skills>span{font:9px var(--mono);letter-spacing:.13em;color:#596b4d;white-space:nowrap;padding-top:4px}
+.health-skills p{font:10px/1.9 var(--mono);color:#69584d;margin:0}
+@media(max-width:900px){.health-pillars{grid-template-columns:repeat(2,minmax(0,1fr))}.architecture-flow{grid-template-columns:1fr}.architecture-flow>i{transform:rotate(90deg);justify-self:center}.health-focus{grid-template-columns:1fr;gap:15px}}
+@media(max-width:620px){.health-engineering{padding-top:80px;padding-bottom:80px}.health-intro{padding:20px}.health-intro p{font-size:14px}.health-pillars{grid-template-columns:1fr}.health-pillars article{min-height:0}.health-pillars h3{margin-top:15px}.health-architecture{padding:20px 16px}.health-focus h3{font-size:22px}.health-skills{display:block}.health-skills p{margin-top:10px}}
