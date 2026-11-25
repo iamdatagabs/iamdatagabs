@@ -17,11 +17,11 @@
 
 ## Sobre
 
-Sou profissional de tecnologia, pesquisador e docente universitário, com **10 anos de trajetória profissional** e formação interdisciplinar. Atuo na interseção entre **Engenharia de Dados, Engenharia de Software, Ciência de Dados, Fisiologia Computacional e Saúde Digital**.
+Sou engenheiro de software e dados, pesquisador clínico e docente universitário, com quase **10 anos de trajetória profissional** e formação interdisciplinar. Atuo na interseção entre **Engenharia de Dados, Engenharia de Software, Ciência de Dados, Fisiologia Computacional e Saúde Digital**.
 
 Minha experiência foi construída em diferentes contextos — academia, educação, pesquisa, desenvolvimento de soluções e gestão de projetos. Isso me deu maturidade para compreender problemas, estruturar processos, dialogar com diferentes áreas e transformar necessidades complexas em entregas técnicas.
 
-Tenho formação em Geografia, mestrado em Ciência e Engenharia da Computação e mestrado profissional em Medicina em andamento, na área de Tecnologia em Saúde. Nos projetos recentes, venho aprofundando a aplicação de métodos numéricos, equações diferenciais, modelagem fisiológica, análise de incerteza e arquitetura de software a problemas biomédicos. Minha atuação combina desenvolvimento de APIs e aplicações, integração e análise de dados, experimentação computacional e documentação científica.
+Tenho formação em Geociências, mestrado em Ciência da Computação e mestrado profissional em Medicina em andamento, na área de Tecnologia em Saúde. Nos projetos recentes, venho aprofundando a aplicação de métodos numéricos, equações diferenciais, modelagem fisiológica, análise de incerteza e arquitetura de software a problemas biomédicos. Minha atuação combina desenvolvimento de APIs e aplicações, integração e análise de dados, experimentação computacional e documentação científica.
 
 **Meu posicionamento:** senioridade construída ao longo de uma trajetória profissional ampla, com atuação técnica em evolução e aprofundamento contínuo em engenharia. Não confundo tempo de carreira com tempo em cargos formais de engenharia: prefiro demonstrar minha capacidade por meio de arquitetura, código, documentação, testes e projetos executáveis.
 
