@@ -71,7 +71,7 @@ Os projetos estão em desenvolvimento iterativo, com integração entre modelage
 - **AKStats:** aprimoramento do cliente NCBI GEO, com controle de frequência das requisições Entrez, testes de configuração e documentação de auditoria do cruzamento de amostras do estudo GSE158634 com evidências bibliográficas.
 - **NeuralRepo:** organização dos experimentos de deep learning para imagens médicas heterogêneas, com foco em generalização, domain adaptation e TinyML; publicação de um explorador experimental de regiões de interesse em MRI cerebral e comparação visual pareada NORMAL × TUMOR.
 
-**Coronary Monorepo:** pipeline experimental de análise cardiovascular que combina estatística inferencial, regressão logística e modelos de machine learning, avaliação de discriminação e calibração, métricas diagnósticas, decision curve analysis e SHAP, usando uma base pública/didática.
+**Coronary Monorepo:** especificação metodológica e arquitetura planejada para um estudo retrospectivo de doença coronariana, combinando estatística inferencial, machine learning, métricas diagnósticas, calibração, decision curve analysis e SHAP. O repositório ainda está na etapa de documentação e desenho; a implementação executável do pipeline permanece como próximo passo.
 
 > **Nota de engenharia:** funcionalidades experimentais, endpoints de preview, testes automatizados e aplicações publicadas possuem níveis distintos de maturidade. Os resultados computacionais e biomédicos são destinados à pesquisa e demonstração; não representam validação clínica ou autorização para uso assistencial.
 
