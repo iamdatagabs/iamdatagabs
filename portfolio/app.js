@@ -72,7 +72,8 @@ async function loadGithub(){
 }
 
 loadGithub();
-\n
+
+
 async function loadRepositoryCatalog(){
   const container=document.getElementById('repository-catalog');
   const status=document.getElementById('repository-status');
@@ -108,4 +109,5 @@ async function loadRepositoryCatalog(){
     console.warn('Repository catalog unavailable:',error);
   }
 }
-\nloadRepositoryCatalog();\n
+
+loadRepositoryCatalog();
