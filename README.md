@@ -123,7 +123,7 @@ Os projetos estão em desenvolvimento iterativo, com integração entre modelage
 
 A engenharia também é feita de colaboração, formação de pessoas e construção de comunidades.
 
-- Docência universitária em disciplinas de Banco de Dados e Engenharia de Software, com atuação também em Ciência de Dados.
+- Professor universitário na UniCesumar, com docência em Banco de Dados e Engenharia de Software e atuação também em Ciência de Dados.
 - Participação em comunidades de saúde e tecnologia, incluindo SBIS, AVS e ABCIS.
 - Diretor de Diversidade e Inclusão na Codaqui, com atuação em democratização do acesso à tecnologia.
 
