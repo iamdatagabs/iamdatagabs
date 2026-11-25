@@ -55,11 +55,22 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 | Repositório | Escopo técnico |
 |---|---|
 | [U.S. Electoral Observatory](https://github.com/iamdatagabs/voting_project) | Plataforma de engenharia de dados: pipeline Raw → Bronze → Silver → Gold, validação, DuckDB, FastAPI e dashboard. |
-| [NeuralRepo](https://github.com/iamdatagabs/neuralrepo) | Pesquisa experimental em deep learning para imagens médicas, TinyML e domain adaptation. |
+| [NeuralRepo](https://github.com/iamdatagabs/neuralrepo) | Pesquisa experimental em deep learning para imagens médicas, TinyML e domain adaptation; inclui explorador interativo de MRI cerebral e comparação pareada de regiões NORMAL × TUMOR. |
 | [Coronary Monorepo](https://github.com/iamdatagabs/coronary_monorepo) | Pipeline de análise cardiovascular com estatística clínica, machine learning, calibração, métricas diagnósticas e explicabilidade. |
 | [CarbonApp](https://github.com/iamdatagabs/carbonapp) | Evolução de pesquisa de mestrado em espectroscopia NIR para uma plataforma de produto: núcleo Python para análise de TOC, validação agrupada, estabilidade espectral, incerteza, interpretabilidade e exportação ONNX/TinyML; dashboard científico público e MVP de captura com Java/Spring Boot, PostgreSQL, web e Android. |
-| [PerfusionLab](https://github.com/iamdatagabs/perfusion_lab) | Plataforma experimental de fisiologia cardiovascular e circulação extracorpórea: modelos acoplados ODE/PDE, transporte convectivo-difusivo-reativo, solver CFD reduzido por volumes finitos, visualização 3D e arquitetura Java/Spring Boot com persistência e processamento assíncrono. |
-| [SPLEEN](https://github.com/iamdatagabs/spleen) | Ambiente de simulação de perfusão esplâncnica em cirurgia digestiva: compartimentos arteriais regionais, pressão portal, balanços de fluxo, análise de sensibilidade e incerteza, Monte Carlo e MCMC exploratório com diagnósticos de múltiplas cadeias. |
+| [PerfusionLab](https://github.com/iamdatagabs/perfusion_lab) | Plataforma experimental de fisiologia cardiovascular e circulação extracorpórea: modelos acoplados ODE/PDE, transporte convectivo-difusivo-reativo, campo transiente 2D de concentração axial/transversal, solver CFD reduzido por volumes finitos, visualização 3D e arquitetura Java/Spring Boot com persistência e processamento assíncrono. |
+| [SPLEEN](https://github.com/iamdatagabs/spleen) | Ambiente de simulação de perfusão esplâncnica em cirurgia digestiva: compartimentos arteriais regionais, pressão portal, balanços de fluxo, heterogeneidade microvascular, densidade capilar regional, campo de distância de troca tecidual, análise de sensibilidade e incerteza, Monte Carlo e MCMC exploratório. Evolução da interface 3D e da aplicação desktop Windows com Tauri. |
+
+### Atualizações recentes — novembro de 2026
+
+Os projetos estão em desenvolvimento iterativo, com integração entre modelagem, interface, APIs e testes. Entre os avanços mais recentes:
+
+- **SPLEEN v1.4:** incorporação de heterogeneidade microvascular, densidade microvascular regional e campo de distância de troca, com acoplamento ao solver de oxigenação. Também houve correção do entrypoint da biblioteca Tauri para a compilação desktop no Windows.
+- **PerfusionLab:** implementação do campo transiente bidimensional de concentração, com transporte axial e transversal e condições de contorno de gradiente normal nulo. Foram adicionados testes de invariantes do campo e integração do endpoint na API de preview.
+- **AKStats:** aprimoramento do cliente NCBI GEO, com controle de frequência das requisições Entrez, testes de configuração e documentação de auditoria do cruzamento de amostras do estudo GSE158634 com evidências bibliográficas.
+- **NeuralRepo:** publicação de um explorador interativo de regiões de interesse em MRI cerebral e de uma comparação pareada entre imagens NORMAL e TUMOR.
+
+> **Nota de engenharia:** funcionalidades experimentais, endpoints de preview, testes automatizados e aplicações publicadas possuem níveis distintos de maturidade. Os resultados computacionais e biomédicos são destinados à pesquisa e demonstração; não representam validação clínica ou autorização para uso assistencial.
 
 [Ver todos os repositórios no GitHub](https://github.com/iamdatagabs?tab=repositories) · [Abrir portfólio completo](https://iamdatagabs.github.io/iamdatagabs/portfolio/)
 
@@ -84,7 +95,7 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 
 </div>
 
-**Stack aplicada nos projetos:** Python, R, Java 21, Kotlin, JavaScript, SQL, FastAPI, Spring Boot, PostgreSQL, RabbitMQ, pandas, PyArrow, DuckDB, MongoDB, Neo4j, SQLite, PyTorch, scikit-learn, ONNX, Docker, OpenSCAD, LaTeX, GitHub Actions e GitHub Pages.
+**Stack aplicada nos projetos:** Python, R, Java 21, Kotlin, JavaScript, SQL, FastAPI, Spring Boot, PostgreSQL, RabbitMQ, pandas, PyArrow, DuckDB, MongoDB, Neo4j, SQLite, PyTorch, scikit-learn, ONNX, Docker, Tauri, OpenSCAD, LaTeX, GitHub Actions e GitHub Pages.
 
 **Métodos e ferramentas de engenharia:** modelagem ODE/PDE, métodos numéricos, volumes finitos (CFD reduzida), análise estatística, Monte Carlo, MCMC, análise de incerteza, APIs REST, mensageria assíncrona, workers distribuídos e visualização científica.
 
@@ -100,7 +111,7 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 
 ### Certificações e desenvolvimento profissional
 
-- Neo4j Graph Data Science Certification.
+- Neo4j Graph Data Science Certification — aprovação com 88/100.
 - MongoDB Certification.
 - Certificação em Cibersegurança — IBSEC.
 - Lean Six Sigma.
