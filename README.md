@@ -125,8 +125,7 @@ A engenharia também é feita de colaboração, formação de pessoas e constru�
 
 - Docência universitária em disciplinas de Banco de Dados e Engenharia de Software, com atuação também em Ciência de Dados.
 - Participação em comunidades de saúde e tecnologia, incluindo SBIS, AVS e ABCIS.
-- Liderança em diversidade e inclusão e democratização do acesso à tecnologia, com atuação na Codaqui.
-- Participação em comunidades e iniciativas de inovação em saúde digital.
+- Diretor de Diversidade e Inclusão na Codaqui, com atuação em democratização do acesso à tecnologia.
 
 ---
 
