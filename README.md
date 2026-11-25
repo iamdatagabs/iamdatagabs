@@ -47,7 +47,7 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 | **U.S. Election Map** | [Mapa eleitoral interativo](https://iamdatagabs.github.io/us-election-map/) | [Repositório](https://github.com/iamdatagabs/us-election-map) |
 | **Estatística Experimental** | [Aplicativo PWA](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/app/) · [Dashboard](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/) · [Painel](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/painel.html) | [Repositório](https://github.com/iamdatagabs/EstatisticaExperimentalUEPG) |
 | **PerfusionLab** | [Bancada computacional](https://iamdatagabs.github.io/perfusion_lab/frontend/workbench.html) · [MVP de pesquisa](https://iamdatagabs.github.io/perfusion_lab/mvp.html) | [Repositório](https://github.com/iamdatagabs/perfusion_lab) |
-| **SPLEEN — Splanchnic Perfusion Simulation Environment** | [Protótipo interativo](https://iamdatagabs.github.io/spleen/) | [Repositório](https://github.com/iamdatagabs/spleen) |
+| **SPLEEN — Splanchnic Perfusion Simulation Environment** | [Protótipo interativo](https://iamdatagabs.github.io/spleen/) | [Repositório](https://github.com/iamdatagabs/spleen) |\n| **MedVoca — Orientação vocacional médica** | [Aplicação interativa](https://iamdatagabs.github.io/teste_med/) | [Repositório](https://github.com/iamdatagabs/teste_med) |
 | **Econometria Espacial** | [Laboratório interativo](https://iamdatagabs.github.io/econometria_espacial/) | [Repositório](https://github.com/iamdatagabs/econometria_espacial) |
 
 ### Repositórios de engenharia e pesquisa
