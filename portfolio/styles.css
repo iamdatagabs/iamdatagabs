@@ -144,3 +144,18 @@ body{background:var(--bg);color:var(--text)}
 .health-skills p{font:10px/1.9 var(--mono);color:#69584d;margin:0}
 @media(max-width:900px){.health-pillars{grid-template-columns:repeat(2,minmax(0,1fr))}.architecture-flow{grid-template-columns:1fr}.architecture-flow>i{transform:rotate(90deg);justify-self:center}.health-focus{grid-template-columns:1fr;gap:15px}}
 @media(max-width:620px){.health-engineering{padding-top:80px;padding-bottom:80px}.health-intro{padding:20px}.health-intro p{font-size:14px}.health-pillars{grid-template-columns:1fr}.health-pillars article{min-height:0}.health-pillars h3{margin-top:15px}.health-architecture{padding:20px 16px}.health-focus h3{font-size:22px}.health-skills{display:block}.health-skills p{margin-top:10px}}
+
+/* Live repository catalog */
+.repository-search{display:block;font:10px var(--mono);letter-spacing:.08em;color:var(--muted);margin:24px 0 9px}
+#repository-search{width:100%;max-width:560px;padding:13px 15px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--text);font:13px var(--font);outline:none}
+#repository-search:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(89,107,77,.12)}
+.repository-status{font:10px var(--mono);color:var(--dim);margin:15px 0}
+.repository-catalog{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.repository-item{min-width:0;padding:17px 18px;border:1px solid var(--line);border-radius:7px;background:rgba(255,255,255,.28)}
+.repository-item h3{font:700 13px var(--display);margin:0 0 8px;overflow-wrap:anywhere}
+.repository-item h3 a:hover{color:var(--blue)}
+.repository-item p{font-size:11px;line-height:1.65;color:var(--muted);margin:0;min-height:38px}
+.repository-meta{display:flex;flex-wrap:wrap;gap:7px;margin-top:13px}
+.repository-meta span{font:9px var(--mono);color:var(--dim);background:var(--panel);padding:4px 7px;border-radius:3px}
+@media(max-width:900px){.repository-catalog{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.repository-catalog{grid-template-columns:1fr}.repository-item p{min-height:0}}
