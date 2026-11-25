@@ -72,3 +72,40 @@ async function loadGithub(){
 }
 
 loadGithub();
+\n
+async function loadRepositoryCatalog(){
+  const container=document.getElementById('repository-catalog');
+  const status=document.getElementById('repository-status');
+  const search=document.getElementById('repository-search');
+  if(!container||!status) return;
+  const lang=document.documentElement.lang==='en'?'en':'pt-BR';
+  const fmtDate=value=>{
+    const date=new Date(value);
+    return Number.isNaN(date.getTime())?'':new Intl.DateTimeFormat(lang,{year:'numeric',month:'short'}).format(date);
+  };
+  try{
+    const response=await fetch('https://api.github.com/users/iamdatagabs/repos?per_page=100&type=owner&sort=updated',{headers:{Accept:'application/vnd.github+json'},cache:'no-store'});
+    if(!response.ok) throw new Error('GitHub API: '+response.status);
+    const repos=(await response.json()).filter(repo=>!repo.fork&&repo.visibility!=='private').sort((a,b)=>new Date(b.updated_at)-new Date(a.updated_at));
+    const render=()=>{
+      const query=(search?.value||'').trim().toLocaleLowerCase();
+      const visible=repos.filter(repo=>[repo.name,repo.description,repo.language].filter(Boolean).join(' ').toLocaleLowerCase().includes(query));
+      container.replaceChildren();
+      visible.forEach(repo=>{
+        const card=document.createElement('article');card.className='repository-item';
+        const heading=document.createElement('h3');const link=document.createElement('a');link.href=repo.html_url;link.target='_blank';link.rel='noreferrer';link.textContent=repo.name;heading.append(link);
+        const description=document.createElement('p');description.textContent=repo.description||(lang==='en'?'No description provided.':'Sem descrição cadastrada.');
+        const meta=document.createElement('div');meta.className='repository-meta';
+        [repo.language,fmtDate(repo.updated_at),((repo.stargazers_count||0)+' ★')].filter(Boolean).forEach(value=>{const span=document.createElement('span');span.textContent=value;meta.append(span)});
+        card.append(heading,description,meta);container.append(card);
+      });
+      status.textContent=lang==='en'?visible.length+' of '+repos.length+' public repositories':visible.length+' de '+repos.length+' repositórios públicos';
+    };
+    search?.addEventListener('input',render);
+    render();
+  }catch(error){
+    status.textContent=lang==='en'?'Could not load the live catalog. Browse all repositories on GitHub.':'Não foi possível carregar o catálogo ao vivo. Consulte todos os repositórios no GitHub.';
+    console.warn('Repository catalog unavailable:',error);
+  }
+}
+\nloadRepositoryCatalog();\n
