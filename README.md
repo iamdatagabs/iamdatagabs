@@ -66,10 +66,12 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 
 Os projetos estão em desenvolvimento iterativo, com integração entre modelagem, interface, APIs e testes. Entre os avanços mais recentes:
 
-- **SPLEEN v1.4:** incorporação de heterogeneidade microvascular, densidade microvascular regional e campo de distância de troca, com acoplamento ao solver de oxigenação. Também houve correção do entrypoint da biblioteca Tauri para a compilação desktop no Windows.
-- **PerfusionLab:** implementação do campo transiente bidimensional de concentração, com transporte axial e transversal e condições de contorno de gradiente normal nulo. Foram adicionados testes de invariantes do campo e integração do endpoint na API de preview.
+- **SPLEEN v1.5:** avanço do modelo reduzido de perfusão esplâncnica, com compartimentos arteriais regionais, pressão portal, balanços de fluxo, visualização 3D paramétrica do baço e triagem de sensibilidade da oxigenação tecidual. A interface reúne análises OAT, Monte Carlo, LHS e MCMC exploratório; os diagnósticos estatísticos são exploratórios e não comprovam identificabilidade ou validade fisiológica.
+- **PerfusionLab:** consolidação de uma plataforma distribuída de pesquisa em circulação extracorpórea, com API Java/Spring Boot, simulações ODE/PDE, processamento assíncrono via RabbitMQ, persistência PostgreSQL, transactional outbox, workers com leases e recuperação de tarefas. O laboratório inclui previews numéricos e clientes web/Android; continua sendo um protótipo educacional e de pesquisa.
 - **AKStats:** aprimoramento do cliente NCBI GEO, com controle de frequência das requisições Entrez, testes de configuração e documentação de auditoria do cruzamento de amostras do estudo GSE158634 com evidências bibliográficas.
-- **NeuralRepo:** publicação de um explorador interativo de regiões de interesse em MRI cerebral e de uma comparação pareada entre imagens NORMAL e TUMOR.
+- **NeuralRepo:** organização dos experimentos de deep learning para imagens médicas heterogêneas, com foco em generalização, domain adaptation e TinyML; publicação de um explorador experimental de regiões de interesse em MRI cerebral e comparação visual pareada NORMAL × TUMOR.
+
+**Coronary Monorepo:** pipeline experimental de análise cardiovascular que combina estatística inferencial, regressão logística e modelos de machine learning, avaliação de discriminação e calibração, métricas diagnósticas, decision curve analysis e SHAP, usando uma base pública/didática.
 
 > **Nota de engenharia:** funcionalidades experimentais, endpoints de preview, testes automatizados e aplicações publicadas possuem níveis distintos de maturidade. Os resultados computacionais e biomédicos são destinados à pesquisa e demonstração; não representam validação clínica ou autorização para uso assistencial.
 
