@@ -47,7 +47,8 @@ Explore os projetos em duas categorias: **produtos interativos**, para experimen
 | **U.S. Election Map** | [Mapa eleitoral interativo](https://iamdatagabs.github.io/us-election-map/) | [Repositório](https://github.com/iamdatagabs/us-election-map) |
 | **Estatística Experimental** | [Aplicativo PWA](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/app/) · [Dashboard](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/) · [Painel](https://iamdatagabs.github.io/EstatisticaExperimentalUEPG/painel.html) | [Repositório](https://github.com/iamdatagabs/EstatisticaExperimentalUEPG) |
 | **PerfusionLab** | [Bancada computacional](https://iamdatagabs.github.io/perfusion_lab/frontend/workbench.html) · [MVP de pesquisa](https://iamdatagabs.github.io/perfusion_lab/mvp.html) | [Repositório](https://github.com/iamdatagabs/perfusion_lab) |
-| **SPLEEN — Splanchnic Perfusion Simulation Environment** | [Protótipo interativo](https://iamdatagabs.github.io/spleen/) | [Repositório](https://github.com/iamdatagabs/spleen) |\n| **MedVoca — Orientação vocacional médica** | [Aplicação interativa](https://iamdatagabs.github.io/teste_med/) | [Repositório](https://github.com/iamdatagabs/teste_med) |
+| **SPLEEN — Splanchnic Perfusion Simulation Environment** | [Protótipo interativo](https://iamdatagabs.github.io/spleen/) | [Repositório](https://github.com/iamdatagabs/spleen) |
+| **MedVoca — Orientação vocacional médica** | [Aplicação interativa](https://iamdatagabs.github.io/teste_med/) | [Repositório](https://github.com/iamdatagabs/teste_med) |
 | **Econometria Espacial** | [Laboratório interativo](https://iamdatagabs.github.io/econometria_espacial/) | [Repositório](https://github.com/iamdatagabs/econometria_espacial) |
 
 ### Repositórios de engenharia e pesquisa
@@ -123,7 +124,8 @@ Os projetos estão em desenvolvimento iterativo, com integração entre modelage
 A engenharia também é feita de colaboração, formação de pessoas e construção de comunidades.
 
 - Docência universitária em disciplinas de Banco de Dados e Engenharia de Software, com atuação também em Ciência de Dados.
-- Participação em comunidades de saúde e tecnologia, incluindo SBIS, AVS e ABCIS.\n- Liderança em diversidade e inclusão e democratização do acesso à tecnologia, com atuação na Codaqui.
+- Participação em comunidades de saúde e tecnologia, incluindo SBIS, AVS e ABCIS.
+- Liderança em diversidade e inclusão e democratização do acesso à tecnologia, com atuação na Codaqui.
 - Participação em comunidades e iniciativas de inovação em saúde digital.
 
 ---
