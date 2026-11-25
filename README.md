@@ -17,7 +17,7 @@
 
 ## Sobre
 
-Sou engenheiro de software e dados, pesquisador clínico e docente universitário, com quase **10 anos de trajetória profissional** e formação interdisciplinar. Atuo na interseção entre **Engenharia de Dados, Engenharia de Software, Ciência de Dados, Fisiologia Computacional e Saúde Digital**.
+Sou engenheiro de software e dados, pesquisador clínico e docente universitário, com uma trajetória interdisciplinar em tecnologia, educação, pesquisa e desenvolvimento de soluções. Atuo na interseção entre **Engenharia de Dados, Engenharia de Software, Ciência de Dados, Fisiologia Computacional e Saúde Digital**.
 
 Minha experiência foi construída em diferentes contextos — academia, educação, pesquisa, desenvolvimento de soluções e gestão de projetos. Isso me deu maturidade para compreender problemas, estruturar processos, dialogar com diferentes áreas e transformar necessidades complexas em entregas técnicas.
 
